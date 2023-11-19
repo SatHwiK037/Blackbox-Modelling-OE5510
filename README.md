@@ -1,4 +1,4 @@
 # Blackbox-Modelling-OE5510
 Blackbox modelling for system identification of Ship Maneuvering motion using back propagating Neural networks - 
 
-[https://www.researchgate.net/publication/346935982_Black-Box_Modeling_of_Ship_Maneuvering_Motion_Using_System_Identification_Method_Based_on_BP_Neural_Network](url)
+This research uses a backpropagating neural network-based system identification technique to represent 3-DOF nonlinear surface ship maneuvering motion in a black-box model. The simulated data of a sequence of moves, acquired by the Marine Systems Simulator toolbox, is the time series used in training and testing the network. This multivariable regression fitting problem is solved by constructing a neural network, then training a single network model to predict several trajectories of a ship. The Stochastic Gradient Descent technique is used to optimize the network's weights, with the mean squared error (MSE) serving as the loss function. Random simulated maneuvers are used to assess the trained network, and the results demonstrate that the network can predict the maneuvering motion for the given inputs and ship.
